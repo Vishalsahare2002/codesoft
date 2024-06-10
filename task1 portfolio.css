@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background-image: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ ul{
+    margin-top: 4%;
+ }
+  ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 16px;
+  }
+  ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: -3%;
+    position: relative;
+  }
+   ul li a:hover{
+    color: purple;
+   }
+   .information{
+    margin-left: 7%;
+    margin-top: 6%;
+   }
+   .information h1{
+    font-size: 65px;
+    color: rgb(38, 30,32);
+   }
+   .information h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+   }
+   .information a{
+    text-decoration: none;
+    color: black;
+    background: whitesmoke;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+   }
+   .information a:hover{
+    background: rgb(86, 205, 50);
+   }
+   
+   .navbar li a:after{
+    content: "";
+    position: absolute;
+    background: rgb(10, 10, 10);
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .navbar li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }
+    
+   .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-image: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+
+   
+}
+.about-img img{
+    width: 35vw;
+    border-radius: 10px;
+
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+    color: #060606;
+    linear
+}
+.about-content h3{
+    font-size: 2.6rem;
+    color: #060606;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    color: #100f0f;
+}
+
+    
+
+.skill h1{
+    text-align:center;
+}
+.skill h3{
+    margin: 5px;
+}
+
+.skill{
+   
+   width: 1000px;
+   margin:90px auto;
+   color: #0e0d0d;
+   padding: 40px;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0,0, 22); 
+   font-family: 'Gill Sans', sans-serif;
+    list-style: none;
+    background: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+    background-size: cover;
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar
+{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12),0 10px 10px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.javascript{
+    width: 60%;
+    animation: javascript 3s;
+}
+ @keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+ }
+ @keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+ }
+ @keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+ }
+ section .skill{
+    background: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+    background-image:url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg) ;
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 30px;
+ }
+ 
+ #projects {
+    padding: 20px;
+}
+
+.project {
+    background-color: #0682e0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#project{
+    background:url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+}
+.project-container{
+    overflow: initial;
+    
+ }
+ .project-content{
+    padding: 1 1.5rem;
+ }
+ .project-img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center; 
+    padding: 5%;
+ }
+ .project-title{
+    font-size: 30px;
+    margin-bottom: 3%;
+ }
+ .project-description{
+    margin-bottom: var(--mb-0-75);
+    font-size: 30px;
+    font-style: none;
+    font-weight: 500%;
+    color: rgb(11, 11, 11);
+ }
+ 
+ .project-title:hover{
+    color:orangered;
+ }
+ .section-title{
+    text-align: center;
+    font-size: 70px;
+
+ }
+ .section-subtitle{
+    color: black;
+    font-size: 40px;
+ }
+ #rsm{
+    
+    background: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+    
+    margin-top: 5px;
+ }
+ 
+ main.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+ }
+ .col header.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a31113;
+    padding: 0px 0px 20px 30px;
+ }
+ .col .contents{
+    padding: 0px 30px;
+    border-left: 2px solid#bababa;
+ }
+ .col .contents .box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+ }
+ .col .content .box:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+ }
+ .col .content .box:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: 100%;
+    top: 0;
+    background-color: hsl(354, 81%, 35%);
+    border: 2px solid white;
+ }
+ .box h4{
+    position: relative;
+    color: hsl(0, 88%, 46%);
+ }
+ .box h3{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+ }
+ .box p{
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+ }
+ #resume{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+    color: black;
+    margin-top: 5px;
+    
+
+ }
+ .contact{
+    display: grid;
+    grid-template-columns: repeat(2, ifr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 5px;
+    background-image: url(georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg);
+ }
+ .contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+ }
+ .contact-text h2 span{
+    color: rgb(252, 17, 17);
+ }
+ .contact-text h4{
+    margin: 15px 0;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .contact-text p{
+    color: #060606;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+ }
+ .contact-list{
+    margin-bottom: 3rem;
+ }
+ .contact-list li{
+    margin-bottom: 10px;
+    display: block;
+ }
+ .contact-list i{
+    display: relative;
+    color: hwb(0 3% 97%);
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: aqua;
+}
+.contact-icons i{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   background: transparent;
+   border: 2px solid rgb(10, 10, 10);
+   border-radius: 50%;
+   font-size: 20px;
+   color: red;
+   text-decoration: none;
+   margin: 30px 15px 30px 0;
+   transition: .5s ease;
+ 
+   
+   
+}
+.contact-icons i:hover{
+    background: #ff0000;
+    color: #051ad7;
+    box-shadow: 0 0 20px #fb0e0e;
+}
+footer {
+   
+   color: #060606;
+   text-align: center;
+   padding: 10px 0;
+   position: relative;;
+   bottom: 0;
+   width: 100%;
+   font-size: 30px;
+}
